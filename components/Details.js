@@ -159,7 +159,7 @@ const Details = () => {
         </Detail>
         <Detail>
           <Text>
-            ke {Info.Title} {Info.Parent.Relation} kami
+            ke Perkahwinan {Info.Parent.Relation} kami
           </Text>
         </Detail>
         <Detail>
