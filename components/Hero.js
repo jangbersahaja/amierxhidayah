@@ -52,26 +52,72 @@ const BGRotate = styled.div`
 
 const TextWrapper = styled.div`
 position: absolute;
-margin-left: 70px;
-margin-bottom: 160px;
 
 display: flex;
 flex-direction: column;
-justify-content: end;
-align-items: justify;
+justify-content: center;
+align-items: center;
 
 width: 100%;
 height: 100%;
 
 gap: 30px;
+
 `;
 
 const Title = styled.p`
-font-size: 18px;
-text-align: left;
+  font-size: 18px;
+  text-align: center;
 
-padding: 1px 5px;
-color: #F0D097;
+  padding: 1px 5px;
+  color: #8A6E69;
+`;
+
+const Center = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  justify-content: justify;
+  align-items: justify;
+
+  padding: 20px 0px;
+`;
+
+const Anis = styled.h2`
+  font-weight: 100;
+  line-height: 0.8;
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #8A6E69;
+  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.1);
+`;
+
+const Hasrul = styled.h2`
+  font-weight: 100;
+  line-height: 0.8;
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #8A6E69;
+  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.1);
+
+  position: relative;
+
+`;
+
+const And = styled.p`
+  margin: -10px 0px 0px 0px;
+  font-size: 100px;
+  text-align: justify;
+  position: relative;
+  color: #F0D097;
+
+  opacity: 0.6;
+
+  position: absolute;
 `;
 
 const Border = styled.div`
@@ -82,42 +128,12 @@ justify-content: justify;
 align-items: justify;
 `;
 
-const Anis = styled.h2`
-  font-weight: 100;
-  line-height: 0.8;
-  font-family: "MonteCarlo", cursive;
-  font-size: 70px;
-  text-align: justify;
-  color: white;
-  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.1);
-`;
-
-const Hasrul = styled.h2`
-  font-weight: 100;
-  line-height: 0.8;
-  font-family: "MonteCarlo", cursive;
-  font-size: 70px;
-  text-align: left;
-  color: white;
-  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.1);
-
-`;
-
-const And = styled.p`
-margin: -40px 0px 0px 180px;
-font-size: 50px;
-text-align: justify;
-position: relative;
-color: #F0D097;
-
-`;
-
 const DateWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #F0D097;
+  color: #8A6E69;
   margin-top: 20px;
 `;
 
@@ -136,7 +152,7 @@ const Date = styled.h1`
   font-size: 50px;
   margin: 8px 15px;
   text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.1);
-  color: white;
+  color: #F0D097;
 `;
 
 const Day = styled.p`

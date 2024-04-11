@@ -6,8 +6,8 @@ export const Info = {
   },
   SN: { Main: "Amier", Partner: "Hidayah" },
   Parent: {
-    Main: "Mohd Solleh Bin Hussin (Bapa)",
-    Partner: "Rabiah Binti Ibrahim (Ibu)",
+    Main: "Mohd Solleh Bin Hussin",
+    Partner: "Rabiah Binti Ibrahim",
     Relation: "Putera",
   },
   Date: {

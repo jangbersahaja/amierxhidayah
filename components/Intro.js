@@ -29,26 +29,22 @@ const BG = styled.div`
 
 const TextWrapper = styled.div`
   position: absolute;
-  margin-left: 70px;
-  margin-bottom: 240px;
 
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  align-items: justify;
+  justify-content: center;
+  align-items: center;
 
   width: 100%;
   height: 100%;
-
-  gap: 30px;
 `;
 
 const Title = styled.p`
   font-size: 18px;
-  text-align: left;
+  text-align: center;
 
   padding: 1px 5px;
-  color: #F0D097;
+  color: #8A6E69;
 `;
 
 const Center = styled.div`
@@ -57,46 +53,60 @@ const Center = styled.div`
 
   justify-content: justify;
   align-items: justify;
+
+  padding: 20px 0px;
 `;
 
 const Anis = styled.h2`
   font-weight: 100;
   line-height: 0.8;
-  font-family: "MonteCarlo", cursive;
-  font-size: 70px;
-  text-align: justify;
-  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #8A6E69;
   text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.1);
 `;
 
 const Hasrul = styled.h2`
   font-weight: 100;
   line-height: 0.8;
-  font-family: "MonteCarlo", cursive;
-  font-size: 70px;
-  text-align: left;
-  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #8A6E69;
   text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.1);
+
+  position: relative;
 
 `;
 
 const And = styled.p`
-  margin: -40px 0px 0px 180px;
-  font-size: 50px;
+  margin: -10px 0px 0px 0px;
+  font-size: 100px;
   text-align: justify;
   position: relative;
   color: #F0D097;
 
+  opacity: 0.6;
+
+  position: absolute;
 `;
 
 const DayTime = styled.p`
   font-size: 18px;
   padding: 2px 10px;
-
-  text-transform: uppercase;
-
   letter-spacing: 1px;
-  color: #F0D097;
+  color: #8A6E69;
+`;
+
+const Location = styled.p`
+  font-size: 18px;
+  padding: 2px 10px;
+  letter-spacing: 1px;
+  color: #8A6E69;
+  font-weight: 500;
 `;
 
 const Intro = () => {
@@ -123,6 +133,12 @@ const Intro = () => {
         <DayTime>
           {Info.Date.Date} {Info.Date.Month} {Info.Date.Year}
         </DayTime>
+        <Location>
+          {Info.Location.Address1}
+        </Location>
+        <Location>
+          Pelabuhan Klang
+        </Location>
       </TextWrapper>
     </Wrapper>
   );
