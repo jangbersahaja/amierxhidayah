@@ -6,7 +6,7 @@ export const Info = {
   },
   SN: { Main: "Amier", Partner: "Hidayah" },
   Parent: {
-    Main: "Mohd Solleh Bin Hussin",
+    Main: "Mohd Solleh Bin Che Hussin",
     Partner: "Rabiah Binti Ibrahim",
     Relation: "Putera",
   },
@@ -19,8 +19,8 @@ export const Info = {
     Counting: "05/26/2024 12:00:00",
   },
   Location: {
-    Venue: "Dewan Masjid",
-    Address1: "Masjid Kampung Raja Uda",
+    Venue: "Lokasi",
+    Address1: "Dewan Masjid Kampung Raja Uda",
     Address2: "42000 Pelabuhan Klang, Selangor",
     Google: "https://maps.app.goo.gl/A7Ghw7NuXvWREPkp9",
     Waze: "https://ul.waze.com/ul?preview_venue_id=66453534.664600878.637750&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
