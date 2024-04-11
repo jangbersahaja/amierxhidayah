@@ -1,5 +1,5 @@
 export const Info = {
-  Title: "Majlis Kesyukuran",
+  Title: "Walimatulurus",
   FN: {
     Main: "Muhammad Amier Shafiq Bin Mohd Solleh",
     Partner: "Nur Hidayah Binti Rahim",
